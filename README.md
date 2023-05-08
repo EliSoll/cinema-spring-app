@@ -6,6 +6,7 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a></li>
+ <li><a href="#technologies">Technologies</a></li>
     <li><a href="#models-and-relations">Models and relations</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#structure">Structure</a></li>
@@ -21,7 +22,7 @@ The project follows a Three-Tier Architecture:
 2. Application logic layer (Service): Provides logic to operate on the data sent to and from the DAO and the client.
 3. Data access layer (DAO): Represents a bridge between the database and the application.
 
-### Built with:
+### 🔨Technologies
 
 * Java  ```v.17.0.5 ```
 * Maven ```v.3.8.0```
@@ -53,24 +54,24 @@ To get a local copy up and running follow these simple steps:
 
 * config: classes with app's configuration
 * controller: basic controllers that handle HTTP requests and responses
-* 1. AuthenticationController - POST ```/register``` - register new user
-* 2. CinemaHallController - POST ```/cinema-halls``` - add cinema-hall
-* 3. CinemaHallController - GET ```/cinema-halls``` - get all cinema-halls
-* 4. MovieController - POST ```/movies``` - add movie
-* 5. MovieController - GET ```/movies``` - get all movies
-* 6. MovieSessionController - POST ```/movie-sessions``` - add movie-session
-* 7. MovieSessionController - GET ```/movie-sessions/available``` - get available movie-session
-* 8. MovieSessionController - PUT ```/movie-sessions/{id}``` - update movie-session
-* 9. MovieSessionController - DELETE ```/movie-sessions/{id}``` - delete movie-session
-* 10. UserController - GET ```/users/by-email``` - get user by username
-* 11. ShoppingCartController - GET ```/shopping-carts/by-user``` - get all movie-session in current user shopping cart
-* 12. ShoppingCartController - PUT ```/shopping-carts/movie-sessions``` - add movie-session to current user shopping cart
-* 13. OrderController - POST ```/orders/complete``` - complete user order
-* 14. OrderController - GET ```/orders``` - show all order history for current user
+   1. AuthenticationController - POST ```/register``` - register new user
+   2. CinemaHallController - POST ```/cinema-halls``` - add cinema-hall
+   3. CinemaHallController - GET ```/cinema-halls``` - get all cinema-halls
+   4. MovieController - POST ```/movies``` - add movie
+   5. MovieController - GET ```/movies``` - get all movies
+   6. MovieSessionController - POST ```/movie-sessions``` - add movie-session
+   7. MovieSessionController - GET ```/movie-sessions/available``` - get available movie-session
+   8. MovieSessionController - PUT ```/movie-sessions/{id}``` - update movie-session
+   9. MovieSessionController - DELETE ```/movie-sessions/{id}``` - delete movie-session
+  10. UserController - GET ```/users/by-email``` - get user by username
+  11. ShoppingCartController - GET ```/shopping-carts/by-user``` - get all movie-session in current user shopping cart
+  12. ShoppingCartController - PUT ```/shopping-carts/movie-sessions``` - add movie-session to current user shopping cart
+  13. OrderController - POST ```/orders/complete``` - complete user order
+  14. OrderController - GET ```/orders``` - show all order history for current user
 * dao: Data Access Object interfaces and their implementations
 * dto: Data Transfer Object
 * exception: custom data exceptions
-* lib: email validator
+* lib: email and password validation
 * model: all data models
 * service: services with ther implementations
 * security: security service CustomUserDetailService
