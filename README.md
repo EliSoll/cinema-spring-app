@@ -22,6 +22,9 @@ The project follows a Three-Tier Architecture:
 2. Application logic layer (Service): Provides logic to operate on the data sent to and from the DAO and the client.
 3. Data access layer (DAO): Represents a bridge between the database and the application.
 
+Plus, you can use my Postman request collection for testing this app: [Postman](https://www.postman.com/docking-module-specialist-85625215/workspace/cinema-app/collection/26634662-f980a27d-562a-4f22-b94d-bdc51761d173?action=share&creator=26634662)
+
+Video presentation of this application: [video](https://www.loom.com/share/27f78048552a4c328c5c1b77982c01ae)
 ### 🔨Technologies
 
 * Java  ```v.17.0.5 ```
@@ -39,7 +42,6 @@ The project follows a Three-Tier Architecture:
 <div align="center"><a href="https://i.ibb.co/N9RWb12/model-relations.png"><img src="https://i.ibb.co/N9RWb12/model-relations.png" alt="demo-app-screen-readme-git" border="0"></a></div>
 
 ## Getting Started
-
 To get a local copy up and running follow these simple steps:
 1. Clone this repository.
 2. Install MySQL and create an empty database.
